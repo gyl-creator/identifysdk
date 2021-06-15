@@ -2,8 +2,9 @@ git init
 git remote add origin git@github.com:Geroff/MavenTest.git
 git add .
 git commit -m "first commit"
-git push origin -u master
+git push -u origin master
 
+ git remote rm origin(删除关联的origin的远程库)
 
 git pull origin master --allow-unrelated-histories
 git push origin mastermaven
