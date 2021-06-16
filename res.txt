@@ -1,5 +1,5 @@
 git init
-git remote add origin git@github.com:Geroff/MavenTest.git
+git remote add origin https://github.com/gyl-creator/identifysdk.git
 git add .
 git commit -m "first commit"
 git push -u origin master
